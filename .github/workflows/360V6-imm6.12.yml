@@ -3,8 +3,8 @@ name: 360v6-imm6.12
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 19 * * *
+  #schedule:
+   # - cron: 0 19 * * *
 
 env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt
