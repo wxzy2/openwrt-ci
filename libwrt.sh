@@ -19,8 +19,4 @@ git clone --depth=1 https://github.com/immortalwrt/homeproxy package/luci-app-ho
 rm -rf package/emortal/luci-app-ddns-go package/luci-app-ddns-go
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go package/luci-app-ddns-go
 
-# openclash
-rm -rf package/emortal/luci-app-openclash package/luci-app-openclash
-git clone --depth=1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash-temp
-mv package/luci-app-openclash-temp/luci-app-openclash package/luci-app-openclash
-rm -rf package/luci-app-openclash-temp
+
